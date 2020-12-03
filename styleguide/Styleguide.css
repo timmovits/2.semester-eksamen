@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-color: #F3EFEC;
+  padding-top: 20px;
+  margin-bottom: 50px;
+  width: 80%;
+}
+
+h1{
+	font-family: 'khand', sans-serif;
+}
+h2{
+	font-family: 'khand', sans-serif;
+}
+h3{
+	font-family: 'roboto', sans-serif;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+}
+xmp{
+	font-family: 'Roboto', sans-serif;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #A92D23;
+  font-family: "khand";
+  position: fixed;
+  height: 50%;
+  overflow: auto;
+}
+.sidebar a {
+  display: block;
+  color: #FFFFFF;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #f4c276;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #f4c276;
+  color: white;
+}
+.sidebar img{
+	width: 200px;
+}
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
