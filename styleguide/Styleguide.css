@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-  background-color: #F3EFEC;
+  background-color: #FCEEDE;
   padding-top: 20px;
   margin-bottom: 50px;
   width: 80%;
@@ -15,6 +15,8 @@ h2{
 }
 h3{
 	font-family: 'roboto', sans-serif;
+}h4{
+	font-family: 'roboto', sans-serif;
 }
 p{
 	font-family: 'Roboto', sans-serif;
@@ -22,6 +24,40 @@ p{
 xmp{
 	font-family: 'Roboto', sans-serif;
 }
+
+
+hr{
+	color:red;
+}
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column2 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .sidebar {
   margin: 0;
   padding: 0;
@@ -45,7 +81,7 @@ xmp{
 }
 
 .sidebar a:hover:not(.active) {
-  background-color: #f4c276;
+  background-color: #732222;
   color: white;
 }
 .sidebar img{
@@ -55,4 +91,24 @@ div.content {
   margin-left: 200px;
   padding: 1px 16px;
   height: 1000px;
+}
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
 }
