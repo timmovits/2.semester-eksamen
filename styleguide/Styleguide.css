@@ -128,3 +128,6 @@ div.content {
   color: #732222;
   object-fit: scale-down;
 }
+.flex-container img{
+	height: 200px;
+}
