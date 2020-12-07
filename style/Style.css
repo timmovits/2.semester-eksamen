@@ -1,6 +1,26 @@
 @charset "utf-8";
 /* CSS Document */
+body {
+  background-color: #FCEEDE;
+  padding-top: 20px;
+  margin-bottom: 50px;
+  width: 80%;
+}
 
+h1{
+	font-family: 'khand', sans-serif;
+}
+h2{
+	font-family: 'khand', sans-serif;
+}
+h3{
+	font-family: 'roboto', sans-serif;
+}h4{
+	font-family: 'roboto', sans-serif;
+}
+p{
+	font-family: "Roboto";
+}
 .oversigt {
 		padding-top:100px;
 		padding-bottom:50px;
@@ -18,8 +38,7 @@
 		justify-content: space-between;
 		margin-right: 100px;
 		padding-top:122px; 
-		
-		
+		text-align: center;
 }
 .oversigt-box{
 		height: 100px;
@@ -36,6 +55,7 @@
 		height: 100px;
 		width: 650px;
 		margin: 0 15px;
+		padding-top: 0px;
 		background-color: #D88439;
 		text-decoration: none;
 		border: 5px solid #732222;
@@ -51,4 +71,43 @@
 .oversigt-box2 a{
 		text-decoration: none;
 		color: #732222;
+	
+}
+
+.peer-content{
+		align-content: center;
+		
+}
+
+.peer-content img{
+
+}
+
+.peer-text{
+		color: #732222;
+}
+.aabentsind-content{
+		align-content: center;
+		
+}
+
+.aabentsind-content img{
+
+}
+
+.aabentsind-text{
+		color: #732222;
+	
+}.paaroerendegruppen-content{
+		align-content: center;
+		
+}
+
+.paaroerendegruppen-content img{
+
+}
+
+.paaroerendegruppen-text{
+		color: #732222;
+	
 }
