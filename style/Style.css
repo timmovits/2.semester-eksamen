@@ -47,7 +47,7 @@ p{
 		margin: 0 15px;
 		background-color: #A92D23;
 		text-decoration: none;
-		border: 5px solid #A92D23;
+		border: 5px solid;
 		border-color: #D88439;
 		border-radius: 20px;
 
@@ -112,3 +112,5 @@ p{
 		color: #732222;
 	
 }
+
+
