@@ -131,3 +131,46 @@ div.content {
 .flex-container img{
 	height: 200px;
 }
+
+.oversigt-boxes{
+		display: flex;
+		justify-content: space-between;
+		margin-right: 100px;
+		padding-top:122px; 
+		text-align: center;
+}
+.oversigt-box{
+		height: 100px;
+		width: 650px;
+		margin: 0 15px;
+		background-color: #A92D23;
+		text-decoration: none;
+		border: 5px solid #A92D23;
+		border-color: #D88439;
+		border-radius: 20px;
+		text-align: center;
+
+}
+.oversigt-box2{
+		height: 100px;
+		width: 650px;
+		margin: 0 15px;
+		padding-top: 0px;
+		background-color: #D88439;
+		text-decoration: none;
+		border: 5px solid #732222;
+		border-color: #A92D23;
+		border-radius: 20px;
+		text-align: center;
+	
+}
+.oversigt-box a{
+		text-decoration: none;
+		color: #F3EFEC;
+	
+}
+.oversigt-box2 a{
+		text-decoration: none;
+		color: #732222;
+	
+}
