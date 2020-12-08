@@ -13,20 +13,23 @@
 </head>
 
 <body>
-	
-
-
+	<a href="../Index.html"><img src="../img/Ikoner/pil mørk rød.svg" height="100px" alt="Tilbage knap"></a>
+	<div class="description-box">
+			<p> Udfyld formularen herunder og vælg om navn eller telefonnummer skal holdes skjult, </p>
+	</div>
 	<div class="contact-form">
-  	<h2>Kontakt os</h2>
+  		<h2>Kontakt os</h2>
   		<div id="fejl-besked">
-     
   		</div>
   		<form action="" id="myform" onsubmit = "return validate();">
+			<label for="myCheck">marker hvis navn ønskes skjult:</label> 
+			<input type="checkbox" id="myCheck" onclick="myFunction()">
+			<p id="text" style="display:none">Checkbox is CHECKED!</p>
     		<div class="input_field">
-        	<input type="text" placeholder="Navn" id="navn">
+        		<input type="text" placeholder="Navn" id="navn">
    	 		</div>
     		<div class="input_field">
-        	<input type="text" placeholder="emne" id="emne">
+        		<input type="text" placeholder="emne" id="emne">
    			</div>
     		<div class="input_field">
        	 		<input type="text" placeholder="tlf nummer" id="tlf nummer">
@@ -41,7 +44,7 @@
         		<input type="submit">
     		</div>
   		</form>
-</div>
+	</div>
 </body>
 </html>
 
