@@ -9,11 +9,7 @@ function validate(){
   error_message.style.padding = "10px";
   
   var text;
-  if(name.length < 3){
-    text = "Indtast et navn på minimum 3 tegn";
-    error_message.innerHTML = text;
-    return false;
-  }
+	
   if(subject.length < 10){
     text = "Minimum 10 tegns uddybelse af emnet";
     error_message.innerHTML = text;
@@ -38,12 +34,3 @@ function validate(){
   return true;
 }
 
-function myFunction() {
-  var checkBox = document.getElementById("myCheck");
-  var text = document.getElementById("text");
-  if (checkBox.checked == true){
-    text.style.display = "block";
-  } else {
-     text.style.display = "none";
-  }
-}

@@ -15,22 +15,30 @@
 <body>
 	<a href="../Index.html"  ><img class="tilbage" src="../img/Ikoner/pil mørk rød.svg" height="100px" alt="Tilbage knap"></a>
 	<div class="description-box">
-			<p> Udfyld formularen herunder og vælg om navn eller telefonnummer skal holdes skjult. Alt given information holdes fortroligt. </p>
+			<p> Udfyld formularen herunder og vælg om navn skal holdes skjult. Alt given information holdes fortroligt. </p>
 	</div>
+	<br>
 	<div class="contact-form">
   		<h2>Kontakt os</h2>
   		<div id="fejl-besked">
   		</div>
   		<form action="" id="myform" onsubmit = "return validate();">
-			<label for="myCheck">marker hvis navn ønskes skjult:</label> 
-			<input type="checkbox" id="myCheck" onclick="myFunction()">
-			<p id="text" style="display:none">Checkbox is CHECKED!</p>
     		<div class="input_field">
-        		<input type="text" placeholder="Navn" id="navn">
+        		<input type="text" placeholder="Navn (Valgfrit)" id="navn">
    	 		</div>
+			<label for="cars">Vælg et team at kontakte:</label>
+			<select id="cars" name="cars">
+  				<option value="Peer-kontakt">PeerToPeer</option>
+  				<option value="aabent-kontakt">ÅbentSind</option>
+  				<option value="gruppe-kontakt">Pårørendegruppen</option>
+  				<option value="stoppestedet-kontakt">Stoppestedet</option>
+			</select>
+			<br>
     		<div class="input_field">
         		<input type="text" placeholder="emne" id="emne">
    			</div>
+			
+			
     		<div class="input_field">
        	 		<input type="text" placeholder="tlf nummer" id="tlf nummer">
     		</div>

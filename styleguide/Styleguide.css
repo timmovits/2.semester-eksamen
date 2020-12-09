@@ -29,6 +29,9 @@ xmp{
 hr{
 	color:red;
 }
+a{
+	font-size: 20px;
+}
 .column1 {
   float: left;
   width: 50%;
@@ -104,6 +107,7 @@ div.content {
   div.content {
     margin-left: 0;
   }
+	
 }
 
 @media screen and (max-width: 400px) {
@@ -117,6 +121,7 @@ div.content {
   flex-wrap: nowrap;
   align-items: center;
   object-fit: scale-down;
+	
 }
 
 .flex-container > div {
@@ -127,9 +132,15 @@ div.content {
   font-family: "Khand";
   color: #732222;
   object-fit: scale-down;
+	
 }
 .flex-container img{
 	height: 200px;
+	
+}
+.flex-container div{
+	font-size: 25px;
+	
 }
 
 .oversigt-boxes{
@@ -138,6 +149,7 @@ div.content {
 		margin-right: 100px;
 		padding-top:122px; 
 		text-align: center;
+	
 }
 .oversigt-box{
 		height: 100px;
