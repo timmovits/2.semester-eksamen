@@ -58,7 +58,7 @@ body {
 	  font-family: 'roboto';
   }
   .oversigt {
-		  padding-top:100px;
+		  
 		  padding-bottom:50px;
 		  width: 100%;
 		  height: 100vh;
@@ -72,10 +72,10 @@ body {
   .oversigt-boxes {
 		  display: flex;
 		  flex-direction: column;
-		  justify-content: space-between;
+		  justify-content: space-between, center;
 		  padding-top:122px; 
 		  text-align: center;
-		  justify-content: center;
+
 		  align-items: center;
 		  width: 100%;
   }
@@ -178,7 +178,25 @@ body {
 		  margin: 40px;
 	  
   }
+.footer {
+		width: 100%;
+		height: 100px;
+		background-color: #732222;
+		bottom: 0;
+	
+}
 
+.footermenu{
+		display:flex;
+		list-style-type: none;
+		height: 100%;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+}
+.footeritem{
+		padding-left: 20%;
+}
 
 /* Denne kan tilføjes hvis vi vil have mindre text eller andet, til telefoner 
 
