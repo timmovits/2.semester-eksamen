@@ -10,8 +10,9 @@ body {
 	background-color: #FCEEDE;
 	padding-top: 20px;
 	margin: 0px;
-	margin-bottom: 50px;
+	
 	width: 100%;
+	
 	
 	
   }
@@ -61,7 +62,7 @@ body {
 		  
 		  padding-bottom:50px;
 		  width: 100%;
-		  height: 100vh;
+		  
 		  background-color: #FCEEDE;
 		  align-items:center;
 		  justify-content: center;
@@ -179,11 +180,11 @@ body {
 	  
   }
 .footer {
+	bottom: 0px;
+	margin-bottom: 0px;
 		width: 100%;
 		height: 100px;
 		background-color: #732222;
-		bottom: 0;
-	
 }
 
 .footermenu{
