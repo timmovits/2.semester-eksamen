@@ -1,21 +1,231 @@
-@charset "utf-8";
-/* CSS Document */
+/* 
+Denne tilføjes hvis media for 600px og under aktiveres
+
+@media only screen and (max-width: 1300px){ }*/
+
+*{ box-sizing: border-box;}
+
 body {
+
+	background-color: #FCEEDE;
+	padding-top: 20px;
+	margin: 0px;
+	margin-bottom: 50px;
+	width: 100%;
+	
+	
+  }
+
+  .tilbage {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 50px;
+  }
+
+  .logo{
+	  display: block;
+	  margin-top: 70px;
+	  width: 90%;  
+	  margin-left: auto;
+	  margin-right: auto;
+  
+  }
+  
+  h1{
+	  font-family: 'khand', sans-serif;
+  }
+  h2{
+	  font-family: 'khand', sans-serif;
+	  font-size: 30px;
+		padding-top: 15px;
+		margin: 0px;
+		text-align: center;
+		
+	  
+  }
+  h3{
+	  font-family: 'khand', sans-serif;
+	  font-size: 40px;
+	  margin-top: 50px;
+	  margin-bottom: 0px;
+  }
+  
+  h4{
+	  font-family: 'roboto', sans-serif;
+  }
+  p{
+	  font-family: 'roboto';
+  }
+  .oversigt {
+		  padding-top:100px;
+		  padding-bottom:50px;
+		  width: 100%;
+		  height: 100vh;
+		  background-color: #FCEEDE;
+		  align-items:center;
+		  justify-content: center;
+		  text-align: center;
+  
+  }
+  
+  .oversigt-boxes {
+		  display: flex;
+		  flex-direction: column;
+		  justify-content: space-between;
+		  padding-top:122px; 
+		  text-align: center;
+		  justify-content: center;
+		  align-items: center;
+		  width: 100%;
+  }
+  .oversigt-box{
+		  height: 80px;
+		  width: 90%;
+		
+		  background-color: #A92D23;
+		  text-decoration: none;
+		  border: 5px solid;
+		  border-color: #D88439;
+		  border-radius: 20px;
+  
+  }
+  .oversigt-box2{
+		  height: 80px;
+		  width: 90%;
+		
+		  padding-top: 0px;
+		  background-color: #D88439;
+		  text-decoration: none;
+		  border: 5px solid #732222;
+		  border-color: #A92D23;
+		  border-radius: 20px;
+	  
+  }
+  .oversigt-box a{
+		  text-decoration: none;
+		  color: #F3EFEC;
+	  
+  }
+  .oversigt-box2 a{
+		  text-decoration: none;
+		  color: #732222;
+	  
+  }
+  
+  .peer-content{
+		  align-content: center;
+		  
+  }
+  
+  .peerlogo{
+	display: block;
+	margin-top: 70px;
+	width: 90%;  
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+  .egern{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  .peer-text{
+		  color: #732222;
+		  margin: 40px;
+		
+  }
+
+  .aabentsind-content{
+		  align-content: center;
+  }
+
+  .åbentsindlogo{
+	display: block;
+	margin-top: 70px;
+	width: 90%;  
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+  .egern2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  
+  .aabentsind-text{
+		  color: #732222;
+		  margin: 40px;
+	  
+  }.paaroerendegruppen-content{
+		  align-content: center;  
+  }
+  
+
+
+  .toegern{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  .paaroerendegruppen-text{
+		  color: #732222;
+		  margin: 40px;
+	  
+  }
+
+
+/* Denne kan tilføjes hvis vi vil have mindre text eller andet, til telefoner 
+
+
+@media only screen and (max-width: 600px){
+
+*{box-sizing: border-box;}
+
+body {
+
   background-color: #FCEEDE;
   padding-top: 20px;
   margin-bottom: 50px;
-  width: 80%;
+  width: 100%;
 }
+
+.tilbage {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 50px;
+  }
+
+  .logo{
+	display: block;
+	margin-top: 70px;
+	width: 90%;  
+	margin-left: auto;
+	margin-right: auto;
+  }
+
 
 h1{
 	font-family: 'khand', sans-serif;
 }
 h2{
 	font-family: 'khand', sans-serif;
-	font-size: 25px;
+	  font-size: 30px;
+		padding-top: 25px;
+		margin: 0px;
+		text-align: center;
 }
 h3{
 	font-family: 'roboto', sans-serif;
+	  font-size: 60px;
+	  margin-top: 50px;
+	  margin-bottom: 0px;
 }h4{
 	font-family: 'roboto', sans-serif;
 }
@@ -34,35 +244,38 @@ p{
 
 }
 
-.oversigt-boxes{
-		display: flex;
-		justify-content: space-between;
-		margin-right: 100px;
-		padding-top:122px; 
-		text-align: center;
+.oversigt-boxes {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-top:122px; 
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 }
 .oversigt-box{
-		height: 100px;
-		width: 650px;
-		margin: 0 15px;
-		background-color: #A92D23;
-		text-decoration: none;
-		border: 5px solid;
-		border-color: #D88439;
-		border-radius: 20px;
+	height: 100px;
+	width: 90%;
+  
+	background-color: #A92D23;
+	text-decoration: none;
+	border: 5px solid;
+	border-color: #D88439;
+	border-radius: 20px;
 
 }
 .oversigt-box2{
-		height: 100px;
-		width: 650px;
-		margin: 0 15px;
-		padding-top: 0px;
-		background-color: #D88439;
-		text-decoration: none;
-		border: 5px solid #732222;
-		border-color: #A92D23;
-		border-radius: 20px;
-	
+	height: 100px;
+	width: 90%;
+  
+	padding-top: 0px;
+	background-color: #D88439;
+	text-decoration: none;
+	border: 5px solid #732222;
+	border-color: #A92D23;
+	border-radius: 20px;
+
 }
 .oversigt-box a{
 		text-decoration: none;
@@ -112,5 +325,5 @@ p{
 		color: #732222;
 	
 }
-
-
+}
+*/
