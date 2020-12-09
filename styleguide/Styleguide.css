@@ -29,7 +29,9 @@ xmp{
 hr{
 	color:red;
 }
-
+a{
+	font-size: 20px;
+}
 .column1 {
   float: left;
   width: 50%;
