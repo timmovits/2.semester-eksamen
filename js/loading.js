@@ -1,5 +1,3 @@
-
-
 var cirkel;
 
 function loading() {

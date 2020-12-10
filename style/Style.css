@@ -49,6 +49,10 @@ body {
   
   h1{
 	  font-family: 'khand', sans-serif;
+	  font-size: 15px;
+	  text-align: left;
+	  padding-left: 10px;
+	  padding-right: 10px;
   }
   h2{
 	  font-family: 'khand', sans-serif;
@@ -70,7 +74,31 @@ body {
   }
   p{
 	  font-family: 'roboto';
+	  text-align: left;
+	  padding-left: 10px;
+	  padding-right: 10px;
   }
+
+  button1 {
+	  background-color: #A92D23;
+	  border: none;
+	  color: #F3EFEC;
+  }
+
+  button2 {
+	background-color: #A92D23;
+	border: none;
+	color: #732222;
+	background-color: #D88439
+}
+
+#EmneIndhold{
+	display: none;
+	border: 2px solid#732222;
+	background-color: #D88439;
+	font-family: 'roboto';
+	border-radius: 10px;
+}
   .oversigt {
 		  
 		  padding-bottom:50px;
