@@ -1,7 +1,18 @@
 /* Center the loader */
 body {
-    background-color: #F3EFEC;
+    background-color: #Fceede;
    
+  }
+
+  h2{
+	  font-family: 'khand', sans-serif;
+	  font-size: 30px;
+		margin: 0px;
+		text-align: center;
+  }
+
+  p{
+	  font-family: 'roboto';
   }
   
   #loader {
@@ -55,13 +66,38 @@ body {
   
     .start {
       position: absolute;
-   
       right: 30%;
       left: 30%;
-      color: floralwhite;
-      background-color: darkred;
+      color: #Fceede;
+      background-color: #732222;
       border-radius: 10px;
-      padding: 5px;
       text-align: center;
+      text-decoration: none;
+      border: 3px solid #732222;
       
+    }
+
+    .start:hover {
+      position: absolute;
+      right: 30%;
+      left: 30%;
+      color: #Fceede;
+      background-color: #732222;
+      border-radius: 10px;
+      text-align: center;
+      text-decoration: none;
+      border: 3px solid black;
+    }
+
+    .start:active{
+      position: absolute;
+      right: 30%;
+      left: 30%;
+      color: #Fceede;
+      background-color: #732222;
+      border-radius: 10px;
+      text-align: center;
+      text-decoration: none;
+      
+      border: 3px solid black;
     }

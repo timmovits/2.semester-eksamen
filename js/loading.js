@@ -2,7 +2,7 @@
 
 var myVar;
 
-function myFunction() {
+function loading() {
   myVar = setTimeout(showPage, 3000);
 }
 
