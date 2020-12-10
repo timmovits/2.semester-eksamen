@@ -65,11 +65,13 @@ body{
   	width: 100%;
   	padding: 10px;
 	border-radius: 10px;
+	
 }
 
 .contact-form textarea{
   	resize: none;
   	height: 80px;
+	
 }
 
 .contact-form .btn input[type="submit"]{
@@ -85,8 +87,30 @@ body{
   	font-weight: bold;
   	border-radius: 25px;
   	cursor: pointer;
+	
+}
+.footer {
+	bottom: 0px;
+	margin-bottom: 0px;
+		width: 100%;
+		height: 100px;
+		background-color: #732222;
+	
 }
 
+.footermenu{
+		display:flex;
+		list-style-type: none;
+		height: 100%;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+	
+}
+.footeritem{
+		padding-left: 20%;
+	
+}
 #fejl-besked{
   	margin-bottom: 20px;
   	background: #fe8b8e;
@@ -94,8 +118,10 @@ body{
   	text-align: center;
   	font-size: 14px;
   	transition: all 0.5s ease;
+	
 }
 
-#cars {
+#dropdown {
 	border-radius: 10px;
+	
 }
