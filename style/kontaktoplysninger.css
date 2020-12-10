@@ -95,7 +95,6 @@ body{
 	
 }
 .footer {
-	position: absolute;
 	bottom: 0px;
 	margin-bottom: 0px;
 		width: 100%;
@@ -111,9 +110,19 @@ body{
 		margin: 0;
 		padding: 0;
 }
-.footeritem{
-		padding-left: 20%;
-	
+.footeritem1{
+		display: block;
+		position: absolute;
+		left: 30%;
+		height: 50px;
+		margin-top: 15px;
+}
+.footeritem2{
+	display: block;
+	position: absolute;
+	right: 30%;
+	height: 50px;
+	margin-top: 15px;
 }
 #fejl-besked{
   	margin-bottom: 20px;

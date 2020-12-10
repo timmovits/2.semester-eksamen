@@ -1,9 +1,9 @@
 
 
-var myVar;
+var cirkel;
 
 function loading() {
-  myVar = setTimeout(showPage, 3000);
+  cirkel = setTimeout(showPage, 3000);
 }
 
 function showPage() {
