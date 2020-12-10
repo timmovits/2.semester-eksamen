@@ -1,7 +1,7 @@
 var cirkel;
 
 function loading() {
-  cirkel = setTimeout(showPage, 3000);
+  cirkel = setTimeout(showPage, 3000); /* 3000 milisekunder*/
 }
 
 function showPage() {

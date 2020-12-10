@@ -49,7 +49,7 @@ body {
   
   h1{
 	  font-family: 'khand', sans-serif;
-	  font-size: 15px;
+	  font-size: 20px;
 	  text-align: left;
 	  padding-left: 10px;
 	  padding-right: 10px;
@@ -94,10 +94,14 @@ body {
 
 #EmneIndhold{
 	display: none;
-	border: 2px solid#732222;
-	background-color: #D88439;
+	
+	
 	font-family: 'roboto';
 	border-radius: 10px;
+	background-color: #A92D23;
+	border: 5px solid  #D88439;
+	border-top: none;
+	border-radius: 20px;
 }
   .oversigt {
 		  
