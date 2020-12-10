@@ -11,9 +11,22 @@ body {
 	padding-top: 20px;
 	margin: 0px;
 	width: 100%;
+  }
+
+  .dummystart {
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	right: 25%;
+	color: #Fceede;
+	background-color: #732222;
+	border-radius: 10px;
+	border: 3px solid #732222;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
 	
-	
-	
+
   }
 
   .tilbage {
