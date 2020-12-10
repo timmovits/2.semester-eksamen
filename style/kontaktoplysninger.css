@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 *{
-  	margin: 0;
-  	padding: 0;
+  	
   	box-sizing: border-box;
   	outline: none;
-  	font-family: 'Josefin Sans', sans-serif;
+  	
 }
 
 body{
-  	background: #FCEEDE;
+	background-color: #FCEEDE;
+	padding-top: 20px;
+	margin: 0px;
+	width: 100%;
+	height: 100vh;
 }
 
 .tilbage {
@@ -90,12 +93,12 @@ body{
 	
 }
 .footer {
+	position: absolute;
 	bottom: 0px;
 	margin-bottom: 0px;
 		width: 100%;
 		height: 100px;
 		background-color: #732222;
-	
 }
 
 .footermenu{
@@ -105,7 +108,6 @@ body{
 		align-items: center;
 		margin: 0;
 		padding: 0;
-	
 }
 .footeritem{
 		padding-left: 20%;

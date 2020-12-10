@@ -10,8 +10,9 @@ body {
 	background-color: #FCEEDE;
 	padding-top: 20px;
 	margin: 0px;
-	
 	width: 100%;
+	height: 100vh;
+	
 	
 	
 	
@@ -180,6 +181,7 @@ body {
 	  
   }
 .footer {
+	
 	bottom: 0px;
 	margin-bottom: 0px;
 		width: 100%;
