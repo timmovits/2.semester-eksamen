@@ -70,7 +70,8 @@ body {
   }
   
   h4{
-	  font-family: 'roboto', sans-serif;
+	  font-family: 'khand', sans-serif;
+	  font-size: 15px;
   }
   p{
 	  font-family: 'roboto';
@@ -357,7 +358,7 @@ body {
 		  align-content: center;
   }
 
-  .åbentsindlogo{
+  .aabentsindlogo{
 	display: block;
 	margin-top: 70px;
 	width: 90%;  
