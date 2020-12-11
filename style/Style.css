@@ -55,8 +55,8 @@ body {
   
   }
   h1{
-	  font-family: 'khand', sans-serif;
-	  font-size: 20px;
+	  font-family: 'khand regular', sans-serif;
+	  font-size: 18px;
 	  text-align: left;
 	  padding-left: 10px;
 	  padding-right: 10px;
@@ -85,6 +85,10 @@ body {
 	  text-align: left;
 	  padding-left: 10px;
 	  padding-right: 10px;
+  }
+
+  .liste {
+	  text-align: left;
   }
 
   button1 {
@@ -400,9 +404,9 @@ body {
   
   .paaroerendegruppen-text{
 		  color: #732222;
-		  margin: 40px;
-	  
+		  margin: 40px;  
   }
+
 .footer {
 	margin-bottom: 0px;
 		width: 100%;

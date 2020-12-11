@@ -15,9 +15,17 @@ html {
   font-size: 62.5%;
 }
 
+.tilbage {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	padding-top: 10px;
+  }
+
 .container {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   background-color: #FCEEDE;
   color: white;
   display: flex;
@@ -111,4 +119,33 @@ html {
 
 .today {
   background-color: #A92D23;
+}
+
+  
+.footer {
+	margin-bottom: 0px;
+		width: 100%;
+		height: 100px;
+		background-color: #732222;
+}
+
+.footermenu{
+		list-style-type: none;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+}
+.footeritem1{
+		display: block;
+		position: absolute;
+		left: 30%;
+		height: 50px;
+		margin-top: 25px;
+}
+.footeritem2{
+	display: block;
+	position: absolute;
+	right: 30%;
+	height: 50px;
+	margin-top: 25px;
 }
