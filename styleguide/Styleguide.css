@@ -11,10 +11,12 @@ h1{
 	font-family: 'khand', sans-serif;
 }
 h2{
-	font-family: 'khand', sans-serif;
+  font-family: 'khand', sans-serif;
+  font-size: 30px;
 }
 h3{
-	font-family: 'khand', sans-serif;
+  font-family: 'khand', sans-serif;
+  font-size: 40px;
 }h4{
 	font-family: 'roboto', sans-serif;
 }
