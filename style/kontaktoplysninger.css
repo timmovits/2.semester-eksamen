@@ -12,7 +12,8 @@ body{
 	padding-top: 20px;
 	margin: 0px;
 	width: 100%;
-	height: 100vh;
+	height: 100%;
+	font-family: 'roboto';
 }
 
 .tilbage {
@@ -24,10 +25,8 @@ body{
   }
 
 .description-box{
-	position: absolute;
-  	top: 15%;
-  	left: 50%;
-  	transform: translate(-50%,-50%);
+	margin-left: 25%;
+	margin-right: 25%;
   	max-width: 350px;
   	width: 100%;
   	background: #A92D23;
@@ -38,10 +37,8 @@ body{
 	color: #F3EFEC;
 }
 .contact-form{
-  	position: absolute;
-  	top: 55%;
-  	left: 50%;
-  	transform: translate(-50%,-50%);
+	margin-left: 25%;
+	margin-right: 25%;
   	max-width: 350px;
   	width: 100%;
   	background: #A92D23;
@@ -95,8 +92,9 @@ body{
 	
 }
 .footer {
+	
 	bottom: 0px;
-	margin-bottom: 0px;
+	margin-top: 20px;
 		width: 100%;
 		height: 100px;
 		background-color: #732222;

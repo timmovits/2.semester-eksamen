@@ -54,6 +54,8 @@ body {
 	  margin-right: auto;
   
   }
+
+  
   h1{
 	  font-family: 'khand regular', sans-serif;
 	  font-size: 18px;
@@ -373,10 +375,10 @@ body {
 
   .aabentsindlogo{
 	display: block;
+	margin: auto;
 	margin-top: 70px;
-	width: 90%;  
-	margin-left: auto;
-	margin-right: auto;
+	width: 80%;  
+	
   }
 
   .egern2{
