@@ -374,8 +374,10 @@ body {
 
   .aabentsindlogo{
 	display: block;
-	margin: 20px;
-	margin-top: 70px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 50px;
+	padding: 20px;
 	width: 80%;  
 	
   }
